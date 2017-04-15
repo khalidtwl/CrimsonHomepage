@@ -59,6 +59,11 @@ a img {
   border: 0;
 }
 
+#left-image-1, #left-image-2, #left-image-3, #left-image-4, #left-image-5, #left-image-6, #left-image-7 {
+    width: 50%;
+    float: right;
+}
+
 /* CLEARFIX */
 /* line 54, ../../srv/crimson/releases/current/crimsononline/static/css/base.scss */
 .cf:before,

@@ -631,12 +631,3 @@ a:hover .article-listitem-text {
   #border {
     display: none; } }
 
-/* line 565, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
-#border {
-  display: inline-block;
-  width: 100%;
-  height: 0;
-  border-bottom: solid 3px #222;
-  position: absolute;
-  top: 50%;
-  left: 0; }
