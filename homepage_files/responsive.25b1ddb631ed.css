@@ -852,12 +852,12 @@ Media query: Large desktop
     width: 960px; }
   /* line 877, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
   #primary-first, #special-first {
-    width: 23.3%;
+    width: 19.3%;
     float: left;
     margin-right: 15px; }
   /* line 882, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
   #primary-second, #special-second {
-    width: 39.8%;
+    width: 38.7%;
     float: left;
     margin-right: 15px; }
   /* line 887, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
@@ -865,7 +865,7 @@ Media query: Large desktop
     width: 63.1%; }
   /* line 890, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
   #primary-third, .primary-third {
-    width: 33%;
+    width: 38.7%;
     float: right; }
   /* line 894, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
   .show-above-tablet {

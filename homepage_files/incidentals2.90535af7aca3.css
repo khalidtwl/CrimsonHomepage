@@ -423,12 +423,12 @@ Most read and more news
 /* line 369, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
 #most-read-box, .article-related {
   border: 10px solid #EBEBEB;
-  width: 285px;
   margin: 0 auto 10px auto; }
 
 /* line 380, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
 #most-read-box h3, .article-related h3, .more-news h3 {
-  color: #b51611;
+  /*color: #b51611;*/
+  color: rgb(186,6,0);
   text-align: center;
   background-color: #EBEBEB;
   padding: 10px;
