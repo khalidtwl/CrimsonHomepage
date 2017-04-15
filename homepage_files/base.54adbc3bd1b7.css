@@ -29,7 +29,7 @@ h1 {
 
 /* line 28, ../../srv/crimson/releases/current/crimsononline/static/css/base.scss */
 h2 {
-  font-size: 2em; }
+  font-size: 1.75em; }
 
 /* line 31, ../../srv/crimson/releases/current/crimsononline/static/css/base.scss */
 h3 {
@@ -57,6 +57,11 @@ a:hover, a:active {
 a img {
   width: 100%;
   border: 0;
+}
+
+#left-image-1, #left-image-2, #left-image-3, #left-image-4, #left-image-5, #left-image-6, #left-image-7 {
+    width: 50%;
+    float: right;
 }
 
 /* CLEARFIX */
