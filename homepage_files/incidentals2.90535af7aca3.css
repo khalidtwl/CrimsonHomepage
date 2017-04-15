@@ -422,21 +422,19 @@ Most read and more news
 */
 /* line 369, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
 #most-read-box, .article-related {
-  /*border: 1px solid #e3e3e3;
-	-moz-box-shadow: 0 3px 3px #eee;
-	-o-box-shadow: 0 3px 3px #eee;
-	-webkit-box-shadow: 0 3px 3px #eee;
-	box-shadow: 0 3px 3px #eee;*/
-  border: 1px solid #dddddd;
-  padding: 10px;
+  border: 10px solid #EBEBEB;
   width: 285px;
   margin: 0 auto 10px auto; }
 
 /* line 380, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
 #most-read-box h3, .article-related h3, .more-news h3 {
-  text-transform: uppercase;
-  font: 1.2em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
-  color: #963431; }
+  color: #b51611;
+  text-align: center;
+  background-color: #EBEBEB;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 /* line 385, ../../srv/crimson/releases/current/crimsononline/static/css/incidentals2.scss */
 #most-read-box ol {
