@@ -1,0 +1,81 @@
+/*
+Colaborate
+*/
+@font-face {
+  font-family: 'Colaborate';
+  src: url('/static/fonts/ColabReg-webfont.eot');
+  src: url('/static/fonts/ColabReg-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/ColabReg-webfont.woff') format("woff"), url('/static/fonts/ColabReg-webfont.ttf') format("truetype"), url('/static/fonts/ColabReg-webfont.svg#ColaborateThinRegular') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Colaborate';
+  src: url('/static/fonts/ColabBol-webfont.eot');
+  src: url('/static/fonts/ColabBol-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/ColabBol-webfont.woff') format("woff"), url('/static/fonts/ColabBol-webfont.ttf') format("truetype"), url('/static/fonts/ColabBol-webfont.svg#ColaborateThinRegular') format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Colaborate Thin';
+  src: url('/static/fonts/ColabThi-webfont.eot');
+  src: url('/static/fonts/ColabThi-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/ColabThi-webfont.woff') format("woff"), url('/static/fonts/ColabThi-webfont.ttf') format("truetype"), url('/static/fonts/ColabThi-webfont.svg#ColaborateThinRegular') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Colaborate Light';
+  src: url('/static/fonts/ColabLig-webfont.eot');
+  src: url('/static/fonts/ColabLig-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/ColabLig-webfont.woff') format("woff"), url('/static/fonts/ColabLig-webfont.ttf') format("truetype"), url('/static/fonts/ColabLig-webfont.svg#ColaborateLightRegular') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+Crimson
+*/
+@font-face {
+  font-family: 'Crimson';
+  src: url('/static/fonts/Crimson-Roman-webfont.eot');
+  src: url('/static/fonts/Crimson-Roman-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/Crimson-Roman-webfont.woff') format("woff"), url('/static/fonts/Crimson-Roman-webfont.ttf') format("truetype"), url('/static/fonts/Crimson-Roman-webfont.svg#CrimsonRoman') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('/static/fonts/Crimson-Bold-webfont.eot');
+  src: url('/static/fonts/Crimson-Bold-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/Crimson-Bold-webfont.woff') format("woff"), url('/static/fonts/Crimson-Bold-webfont.ttf') format("truetype"), url('/static/fonts/Crimson-Bold-webfont.svg#CrimsonBold') format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('/static/fonts/Crimson-BoldItalic-webfont.eot');
+  src: url('/static/fonts/Crimson-BoldItalic-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/Crimson-BoldItalic-webfont.woff') format("woff"), url('/static/fonts/Crimson-BoldItalic-webfont.ttf') format("truetype"), url('/static/fonts/Crimson-BoldItalic-webfont.svg#CrimsonBoldItalic') format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('/static/fonts/Crimson-Italic-webfont.eot');
+  src: url('/static/fonts/Crimson-Italic-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/Crimson-Italic-webfont.woff') format("woff"), url('/static/fonts/Crimson-Italic-webfont.ttf') format("truetype"), url('/static/fonts/Crimson-Italic-webfont.svg#CrimsonItalic') format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/*
+Chunk Five
+*/
+@font-face {
+  font-family: 'Chunk Five';
+  src: url('/static/fonts/Chunkfive-webfont.eot');
+  src: url('/static/fonts/Chunkfive-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/Chunkfive-webfont.woff') format("woff"), url('/static/fonts/Chunkfive-webfont.ttf') format("truetype"), url('/static/fonts/Chunkfive-webfont.svg#ColaborateThinRegular') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+Bebas
+*/
+@font-face {
+  font-family: 'Bebas';
+  src: url('/static/fonts/BEBAS___-webfont.eot');
+  src: url('/static/fonts/BEBAS___-webfont.eot?#iefix') format("embedded-opentype"), url('/static/fonts/BEBAS___-webfont.woff') format("woff"), url('/static/fonts/BEBAS___-webfont.ttf') format("truetype"), url('/static/fonts/BEBAS___-webfont.svg#bebasregular') format("svg");
+  font-weight: normal;
+  font-style: normal; }

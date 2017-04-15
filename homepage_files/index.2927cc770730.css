@@ -1,0 +1,144 @@
+/*
+Breaking
+*/
+/* line 5, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#breaking {
+  zoom: 1;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+/* line 10, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#breaking:before, #breaking:after {
+  display: table;
+  content: ""; }
+
+/* line 14, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#breaking:after {
+  clear: both; }
+
+/* line 17, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#breaking-headline {
+  font-family: 'Crimson', Georgia, serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: #ba0600; }
+
+/* line 24, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+.breaking-separator {
+  height: 1px;
+  border-top: 1px solid #ccc;
+  width: 75%;
+  margin: 10px auto 20px auto;
+  clear: both; }
+
+/* line 31, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+.huge-primary {
+  width: 60%;
+  float: left; }
+
+/* line 35, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+.huge-primary img {
+  width: 100%;
+  margin-bottom: 10px; }
+
+/* line 39, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+.huge-primary h1 {
+  margin-bottom: 7px !important;
+  text-align: center;
+  color: #ba0600;
+  text-decoration: none; }
+
+/* line 45, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#special-first h2, #special-first h3 {
+  font-style: italic; }
+
+/* Semibreaking */
+/* line 51, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#semibreaking {
+  zoom: 1;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+/* line 56, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#semibreaking:before, #semibreaking:after {
+  display: table;
+  content: ""; }
+
+/* line 60, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#semibreaking:after {
+  clear: both; }
+
+/* line 63, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#semibreaking-headline {
+  font-family: 'Crimson', Georgia, serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: #ba0600; }
+
+/* line 70, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+.semibreaking-separator {
+  height: 1px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 10px auto 20px auto;
+  clear: both; }
+
+/*
+Primary
+*/
+/* line 81, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#primary {
+  zoom: 1;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+/* line 86, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#primary:before, #primary:after {
+  display: table;
+  content: ""; }
+
+/* line 90, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#primary:after {
+  clear: both; }
+
+/*
+Secondary
+*/
+/* line 97, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary {
+  margin: 0 auto;
+  padding: 15px 0;
+  zoom: 1; }
+
+/* line 102, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary:before, #secondary:after {
+  content: "";
+  display: table; }
+
+/* line 106, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary:after {
+  clear: both; }
+
+/* line 109, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary-third-upper {
+  zoom: 1; }
+
+/* line 112, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary-third-upper:before, #secondary-third-upper:after {
+  content: "";
+  display: table; }
+
+/* line 116, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#secondary-third-upper:after {
+  clear: both; }
+
+/*
+Tertiary
+*/
+/* line 123, ../../srv/crimson/releases/current/crimsononline/static/css/index.scss */
+#tertiary {
+  clear: both;
+  margin: 0 auto;
+  zoom: 1; }

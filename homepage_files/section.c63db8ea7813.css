@@ -1,0 +1,428 @@
+/*
+General section page paradigm
+*/
+/* line 4, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper, #lower {
+  zoom: 1;
+  margin: 0 auto 15px; }
+
+/* line 8, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#lower {
+  margin-top: 15px; }
+
+/* line 11, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper:before, #upper:after, #lower:before, #lower:after {
+  content: "";
+  display: table; }
+
+/* line 15, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper:after, #lower:after {
+  clear: both; }
+
+/* line 18, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#section-bar {
+  background: transparent url('/static/images/section-nav.jpg') bottom right repeat-x;
+  zoom: 1;
+  margin: 15px 0; }
+
+/* line 23, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#section-bar:before, #upper #section-bar:after {
+  content: "";
+  display: table; }
+
+/* line 27, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#section-bar:after {
+  clear: both; }
+
+/* line 30, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#section-bar h1 {
+  background-color: #963431;
+  color: white;
+  padding: 10px 15px;
+  font: 2.5em 'Colaborate Thin', 'Lucida Sans Unicode', sans-serif;
+  display: inline;
+  float: left; }
+
+/* line 38, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper #section-nav {
+  float: right;
+  width: auto; }
+
+/* line 42, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper #section-nav ul {
+  margin: 0;
+  padding: 21px 0 0 0;
+  zoom: 1; }
+
+/* line 47, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper #section-nav ul li {
+  display: inline;
+  list-style: none; }
+
+/* line 51, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper #section-nav ul li a {
+  font: 1.1em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  display: block;
+  padding: 10px 15px;
+  margin-right: 10px;
+  float: left;
+  background-color: transparent; }
+
+/* line 59, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper #section-nav ul li a:hover, #upper #section-nav ul li a:active {
+  background-color: white;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  text-decoration: none; }
+
+/* line 67, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper-first h2 a, #upper-second h2 a {
+  text-transform: uppercase;
+  font: 0.6em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  color: #666;
+  display: block;
+  text-align: center;
+  margin: 15px 0; }
+
+/* line 75, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper-first h2 a:hover, #upper-first h2 a:active, #upper-second h2 a:hover, #upper-second h2 a:active {
+  color: #333; }
+
+/* line 78, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper-first {
+  text-align: center;
+  padding: 5px; }
+
+/* line 82, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#upper-second .upper-column, #lower-body .lower-column {
+  padding: 5px; }
+
+/* line 85, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsections-container {
+  zoom: 1; }
+
+/* line 88, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsections-container:before, .subsections-container:after {
+  content: "";
+  display: table; }
+
+/* line 92, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsections-container:after {
+  clear: both; }
+
+/* line 95, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon {
+  margin-bottom: 20px; }
+
+/* line 98, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon .icon-image {
+  margin-bottom: -4px;
+  /* TODO: Webkit only? */ }
+
+/* line 101, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon .icon-image img {
+  height: 60px; }
+
+/* line 104, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon .icon-byline a {
+  font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  color: #666;
+  padding: 10px 0 5px;
+  text-transform: uppercase;
+  display: block;
+  border-top: 1px solid #e3e3e3; }
+
+/* line 112, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon .icon-byline a:hover, .subsection-icon .icon-byline a:active {
+  color: #333; }
+
+/* line 115, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.subsection-icon .icon-date {
+  color: #ba0600;
+  padding: 5px 0 10px;
+  font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif; }
+
+/* line 121, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-content .magazine-subsection a, #magazine-scrutiny-content .magazine-subsection a:hover, #magazine-scrutiny-content .magazine-subsection a:active {
+  background-color: #a83935;
+  padding: 15px 10px 5px 10px;
+  color: white;
+  position: relative;
+  bottom: 30px;
+  float: right; }
+
+/* line 129, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-content .magazine-subsection a:hover, #magazine-scrutiny-content .magazine-subsection a:active {
+  background-color: #972824; }
+
+/* line 132, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-content h2 {
+  margin: 25px 0 0 0;
+  width: 50%;
+  float: right;
+  clear: both; }
+
+/* line 138, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-content h2 a {
+  text-align: right;
+  display: block;
+  color: white; }
+
+/* line 143, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-content .article-byline {
+  text-align: right;
+  clear: both; }
+
+/* line 147, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-teaser {
+  background-color: #541412;
+  clear: both; }
+
+/* line 151, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-teaser:before, #magazine-scrutiny-teaser:after {
+  content: "";
+  display: table; }
+
+/* line 155, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-teaser:after {
+  clear: both; }
+
+/* line 158, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-scrutiny-teaser p {
+  text-align: right;
+  background-color: #541412;
+  color: white;
+  padding: 25px 100px 25px 25px;
+  clear: both;
+  font-size: 105%;
+  line-height: 160%;
+  width: 640px;
+  float: right; }
+
+/* line 169, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-primary-second {
+  background: transparent url('/static/css/images/fm-texture.png') repeat-both;
+  width: 33%;
+  float: right; }
+
+/* line 174, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-primary-second-content {
+  float: left;
+  width: 320px; }
+
+/* line 178, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-stories {
+  background: transparent url('/static/css/images/fm-texture.jpg') repeat-both; }
+
+/* line 181, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-stories h3, #magazine-cover-feature h3 {
+  background-color: #541412;
+  color: white;
+  padding: 18px;
+  text-transform: uppercase; }
+
+/* line 187, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-cover-story {
+  -moz-box-shadow: 0 3px 3px #666;
+  -o-box-shadow: 0 3px 3px #666;
+  -webkit-box-shadow: 0 3px 3px #666;
+  box-shadow: 0 3px 3px #666;
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 30px;
+  zoom: 1;
+  position: relative;
+  right: 25px;
+  z-index: 10; }
+
+/* line 201, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-cover-story:before, .magazine-cover-story:after {
+  content: "";
+  display: table; }
+
+/* line 205, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-cover-story:after {
+  clear: both; }
+
+/* line 208, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-cover-story img {
+  margin-right: 10px;
+  -moz-box-shadow: 0 3px 3px #eee;
+  -o-box-shadow: 0 3px 3px #eee;
+  -webkit-box-shadow: 0 3px 3px #eee;
+  box-shadow: 0 3px 3px #eee;
+  float: left; }
+
+/* line 216, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature {
+  background-color: #541412;
+  color: white; }
+
+/* line 220, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature .magazine-cover-story {
+  background: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0; }
+
+/* line 228, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature .magazine-cover-story img {
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* line 234, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature h3 {
+  text-align: center; }
+
+/* line 237, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature h4 a {
+  color: white; }
+
+/* line 240, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-cover-feature .article-byline, #magazine-cover-feature .article-byline a {
+  color: #b0807e; }
+
+/* line 243, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-secondary {
+  background: transparent url('/static/css/images/fm-texture.png') repeat-both;
+  margin-top: -51px; }
+
+/* line 247, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-secondary #magazine-nav {
+  background-color: #541412; }
+
+/* line 250, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul {
+  margin: 0;
+  padding: 0;
+  zoom: 1; }
+
+/* line 255, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul:before, #magazine-nav ul:after {
+  content: "";
+  display: table; }
+
+/* line 259, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul:after {
+  clear: both; }
+
+/* line 262, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul li {
+  list-style: none;
+  display: inline;
+  float: left; }
+
+/* line 267, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul li a {
+  float: left;
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #772421;
+  color: #b0807e;
+  display: block;
+  font-size: 85%;
+  margin-right: 10px; }
+
+/* line 278, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul li a:hover, #magazine-nav ul li a:active {
+  color: white;
+  background-color: #430301;
+  text-decoration: none; }
+
+/* line 283, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-nav ul li a.active, #magazine-nav ul li a.active:hover, #magazine-nav ul li a.active:active {
+  color: #551513;
+  background-color: white; }
+
+/* line 287, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-category {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  zoom: 1;
+  padding: 15px 0;
+  border-bottom: 1px solid #a83935;
+  margin-bottom: 15px; }
+
+/* line 295, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-category:before, .magazine-category:after {
+  content: "";
+  display: table; }
+
+/* line 299, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-category:after {
+  clear: both; }
+
+/* line 302, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-category .magazine-story {
+  width: 25%;
+  float: left; }
+
+/* line 306, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.magazine-category .magazine-story img {
+  -moz-box-shadow: 0 3px 3px #eee;
+  -o-box-shadow: 0 3px 3px #eee;
+  -webkit-box-shadow: 0 3px 3px #eee;
+  box-shadow: 0 3px 3px #eee; }
+
+/* line 312, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary {
+  background: transparent url('/static/css/images/fm-texture.png') repeat-x 0 -100px;
+  margin-bottom: 25px; }
+
+/* line 316, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-first, #magazine-tertiary-second, #magazine-tertiary-third {
+  text-align: center; }
+
+/* line 319, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-first, #magazine-tertiary-third {
+  width: 25%;
+  float: left; }
+
+/* line 323, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-second {
+  width: 46%;
+  float: left;
+  zoom: 1;
+  padding: 15px;
+  -moz-box-shadow: 0 3px 3px #eee;
+  -o-box-shadow: 0 3px 3px #eee;
+  -webkit-box-shadow: 0 3px 3px #eee;
+  box-shadow: 0 3px 3px #eee;
+  background-color: #ffe;
+  border: 1px solid #eee; }
+
+/* line 335, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-second:before, #magazine-tertiary-second:after {
+  content: "";
+  display: table; }
+
+/* line 339, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-second:after {
+  clear: both; }
+
+/* line 342, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+#magazine-tertiary-second .magazine-story {
+  width: 50%;
+  float: left; }
+
+/* line 347, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 353, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 357, ../../srv/crimson/releases/current/crimsononline/static/css/section.scss */
+.clearfix {
+  *zoom: 1; }

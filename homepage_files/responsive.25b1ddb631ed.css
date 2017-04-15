@@ -1,0 +1,1020 @@
+/*
+Media query: Landscape phone and down
+*/
+/* line 7, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+.small-screen-only {
+  display: block; }
+
+/* line 10, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+.large-screen-only {
+  display: none; }
+
+@media (max-width: 480px) {
+  /* Image styles and miscellaneous */
+  /* line 16, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  img {
+    width: 100%; }
+  /* line 19, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar img {
+    width: auto; }
+  /* line 22, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-headline-image img, .icon-image img {
+    width: auto; }
+  /* line 25, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article, .more-news {
+    margin: 0 10px 10px; }
+  /* line 28, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .more-news {
+    margin-top: 20px; }
+  /* General section page paradigm */
+  /* line 32, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-image, #upper-body .feature.horizontal .article-image img {
+    width: 100%; }
+  /* line 35, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-content {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box; }
+  /* line 40, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .subsection-icon {
+    width: 42.5%;
+    float: left;
+    padding: 10px;
+    height: 130px; }
+  /* General article page paradigm */
+  /* line 47, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body {
+    padding: 0 10px; }
+  /* line 50, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body ul#article-actions li, ul.pager li, #body ul.list-actions li,
+  #article ul.list-actions li {
+    width: 50%;
+    display: block;
+    float: left; }
+  /* line 56, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  ul.pager li.pager-current {
+    width: 100%; }
+  /* line 59, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-inset {
+    width: 45%;
+    float: left;
+    margin: 0 10px 10px 0; }
+  /* line 64, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-inset img {
+    width: 100%; }
+  /* Media-specific styles */
+  /* line 68, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #main.media {
+    padding: 15px; }
+  /* line 71, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media #media-list {
+    text-align: center; }
+  /* line 74, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media #media-list img {
+    width: auto; }
+  /* Masthead */
+  /* line 78, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-first h1 {
+    font-size: 30px; }
+  /* line 81, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-search-mobile {
+    display: block;
+    padding: 0; }
+  /* line 85, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-search {
+    display: none; }
+  /* line 88, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav {
+    position: relative;
+    background-color: #eaeaea;
+    z-index: 1; }
+  /* line 93, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav-mobile {
+    position: relative;
+    background-color: #f4f4f4;
+    z-index: 2; }
+  /* line 98, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav.mobile-hidden {
+    display: none; }
+  /* line 101, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav ul li {
+    width: 50%;
+    float: left; }
+  /* line 105, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav ul li, #masthead-nav ul li a {
+    display: block; }
+  /* line 108, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav-mobile ul li a {
+    padding: 8px 0;
+    width: 100%; }
+  /* Subnav */
+  /* line 113, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar {
+    height: 20px;
+    overflow: hidden; }
+  /* line 117, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon {
+    display: none; }
+  /* line 120, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-social {
+    float: left;
+    width: 60%;
+    padding-left: 10px; }
+  /* line 125, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-weather {
+    float: left;
+    /*width: 31%;*/
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left; }
+  /* line 132, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-weather a {
+    padding: 0; }
+  /* line 135, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .weather-locale {
+    display: none; }
+  /* Breaking */
+  /* line 140, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-sidebar, #breaking-main-second {
+    display: none; }
+  /* line 143, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-align: center; }
+  /* line 150, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container img {
+    height: 100%; }
+  /* line 153, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box; }
+  /* line 158, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-headline {
+    font-size: 3.5em;
+    line-height: 1.0em;
+    height: 1.0em; }
+  /* line 163, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .huge-primary {
+    float: none;
+    width: 95%;
+    margin: 0 auto;
+    clear: both; }
+  /* line 169, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-above-tablet {
+    display: none; }
+  /* line 172, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-below-tablet {
+    display: block; }
+  /* Row */
+  /* line 177, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row {
+    margin: 0 10px;
+    box-sizing: border-box; }
+  /* line 181, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row .article {
+    float: left;
+    width: 43%;
+    text-align: center;
+    padding: 0 0 10px;
+    box-sizing: border-box; }
+  /* Section box */
+  /* line 189, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box {
+    margin: 0 10px 15px; }
+  /* line 192, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box .section-box-second img {
+    width: 25%;
+    float: left;
+    margin-right: 10px; }
+  /* line 197, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box .section-feature img {
+    width: 100%; }
+  /* Blog box */
+  /* line 201, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .blog-box {
+    margin: 0 auto 15px; }
+  /* Photo box */
+  /* line 205, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #photo-box .media-entry {
+    float: left;
+    width: 33%;
+    padding: 0 10px 20px;
+    box-sizing: border-box; }
+  /* Magazine box */
+  /* line 212, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box {
+    width: 305px;
+    margin: 0 auto; }
+  /* line 216, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box #fm-logo img {
+    width: 50%; }
+  /* line 219, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box .section-feature .article-image img {
+    width: 100%; }
+  /* line 222, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box #fm-second img {
+    width: 25%;
+    float: left;
+    margin-right: 10px; }
+  /* Footer */
+  /* line 228, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  footer {
+    text-align: center; }
+  /* line 231, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  footer ul li {
+    display: block;
+    text-align: center;
+    padding: 0; }
+  /* line 236, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  footer ul li a {
+    display: block;
+    padding: 5px 0; }
+  /* line 240, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .pagination-spacer {
+    float: none;
+    width: auto; }
+  /* line 244, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .pagination-navigation {
+    float: none;
+    margin-bottom: 10px;
+    width: auto; } }
+
+/*
+Ad unit fix for mobile
+*/
+/* line 254, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+#article .sidebar {
+  margin: 0 auto; }
+
+@media (max-width: 342px) {
+  /* line 258, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #article .sidekick-shell.sidebar {
+    margin: 0 0 0 -5.8%; } }
+
+/*
+Media query: Boilerplates for landscape phone to landscape tablet and desktop
+*/
+@media (min-width: 481px) and (max-width: 979px) {
+  /* General section page paradigm */
+  /* line 269, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-image {
+    width: 50%; }
+  /* line 272, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-content {
+    width: 45%; }
+  /* line 275, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-image img {
+    width: 100%; }
+  /* line 278, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .upper-column, #lower-body .lower-column {
+    width: 45%;
+    float: left;
+    padding: 5px 10px; }
+  /* line 283, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .subsection-icon {
+    width: 28.5%;
+    float: left;
+    padding: 10px;
+    height: 130px; }
+  /* General article page paradigm */
+  /* line 290, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body {
+    padding: 0 10px; }
+  /* line 293, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  ul.pager li {
+    width: 20%; }
+  /* line 296, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body ul.list-actions li,
+  #article ul.list-actions li {
+    width: 50%; }
+  /* line 300, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-inset {
+    float: left;
+    width: 180px;
+    margin: 0 10px 10px 0; }
+  /* Media-specific styles */
+  /* line 306, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #main.media {
+    padding: 15px; }
+  /* line 309, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media #media-list {
+    text-align: center; }
+  /* line 312, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media .media-entry {
+    float: left;
+    width: 33%; }
+  /* Subnav */
+  /* line 317, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon, #toolbar-social {
+    text-align: left;
+    width: 65%;
+    float: left;
+    clear: both;
+    height: 18px;
+    overflow: hidden; }
+  /* Section box */
+  /* line 326, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box {
+    background: #E8E8E8 url('/static/images/divider.png') repeat-y 50% 0%;
+    margin: 0 10px 15px; }
+  /* line 330, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box .section-feature img {
+    width: 100%; }
+  /* line 333, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box#section-opinion {
+    background-image: none; }
+  /* line 336, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box-first {
+    float: left;
+    width: 50%; }
+  /* line 340, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box-second {
+    float: right;
+    width: 50%; }
+  /* Spilldown boxes */
+  /* line 345, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .blog-box, #media-box, #fm-box, #most-read-box {
+    margin: 0 auto 15px;
+    width: 305px; }
+  /* line 349, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #most-read-box, .article-related {
+    width: 285px; }
+  /* line 352, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media-shell, #fm-shell, #most-read-shell, .blog-shell, .sidekick-shell {
+    float: left;
+    width: 50%; }
+  /* Masthead */
+  /* line 357, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-first {
+    width: 100%; }
+  /* line 360, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav {
+    text-align: center;
+    clear: both;
+    overflow: hidden; }
+  /* line 365, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav-mobile {
+    display: none; }
+  /* Breaking */
+  /* line 370, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-sidebar {
+    display: none; }
+  /* line 373, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-align: center; }
+  /* line 380, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container {
+    height: 100%; }
+  /* line 383, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box; }
+  /* line 388, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main-first {
+    width: 60%;
+    float: left; }
+  /* line 392, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main-second {
+    width: 38%;
+    float: right; }
+  /* line 396, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-headline {
+    font-size: 5em;
+    line-height: 1.1em;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 15px; }
+  /* Primary */
+  /* line 405, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-first, #primary-second, #special-first, #special-second {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box; }
+  /* line 411, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #special-first.lonely-first {
+    width: 100%; }
+  /* line 414, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-first img {
+    width: 100%; }
+  /* line 417, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-third, .primary-third {
+    clear: both; }
+  /* line 420, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-above-tablet {
+    display: none; }
+  /* line 423, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-below-tablet {
+    display: block; }
+  /* line 426, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .huge-primary {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    clear: both; }
+  /* Row */
+  /* line 433, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row {
+    margin: 0 10px; }
+  /* line 436, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row .article {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 10px 10px; }
+  /* line 443, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row .article img {
+    width: 80%; }
+  /* Magazine box */
+  /* line 447, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box .section-feature .article-image img {
+    width: 100%; }
+  /* Footer */
+  /* line 451, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  footer {
+    text-align: center;
+    padding: 0 15px 15px;
+    background-position: bottom center; }
+  /* line 456, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .pagination-spacer {
+    float: none;
+    width: auto; }
+  /* line 460, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .pagination-navigation {
+    float: none;
+    margin-bottom: 10px;
+    width: auto; } }
+
+/*
+Media query: Landscape phone to landscape tablet and small desktop
+*/
+@media (min-width: 481px) and (max-width: 800px) {
+  /* General section page paradigm */
+  /* line 471, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body #section-bar, #upper-body .feature {
+    margin-left: 10px;
+    margin-right: 10px; }
+  /* line 475, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body .feature.horizontal .article-image {
+    width: 50%;
+    float: left; }
+  /* General article page paradigm */
+  /* line 480, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-image-side {
+    width: 50%; }
+  /* Secondary */
+  /* line 484, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-first, #secondary-second {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box; }
+  /* line 490, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-third {
+    clear: both; }
+  /* Photo box */
+  /* line 494, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #photo-box .media-entry {
+    float: left;
+    width: 33%;
+    padding: 0 10px 20px;
+    box-sizing: border-box; }
+  /* Magazine box */
+  /* line 501, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-second {
+    text-align: center; }
+  /* Recommended articles */
+  /* line 505, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended {
+    width: 47%; } }
+
+/*
+Media query: Spilldowns, toolbar expansions
+*/
+@media (min-width: 481px) and (max-width: 550px) {
+  /* line 513, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon {
+    padding: 0 10px;
+    /*width: 98%;*/ }
+  /* line 517, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-social {
+    float: left;
+    width: 48%;
+    padding-left: 10px; }
+  /* line 522, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-weather {
+    float: right;
+    /*width: 48%;*/ } }
+
+@media (min-width: 481px) and (max-width: 640px) {
+  /* line 528, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media-shell, #fm-shell, #most-read-shell, .article-related-shell, .blog-shell, .sidekick-shell {
+    width: 100%;
+    clear: both; } }
+
+/*
+Media query: Toolbar expansion
+*/
+@media (min-width: 801px) {
+  /* Subnav */
+  /* line 538, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon {
+    /*width: 58%;*/
+    float: left;
+    clear: none; }
+  /* line 543, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-social {
+    width: 20%;
+    float: left;
+    clear: none;
+    display: none; }
+  /* line 549, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-weather {
+    /*width: 25%;*/
+    float: right; } }
+
+@media (max-width: 979px) {
+  /* line 556, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-search {
+    position: static;
+    margin-top: 10px; } }
+
+/*
+Media query: Small desktop to large desktop
+*/
+@media (min-width: 801px) and (max-width: 979px) {
+  /* General section page paradigm */
+  /* line 568, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body, #lower-body {
+    width: 57%;
+    float: left; }
+  /* line 572, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body #section-bar, #upper-body .feature {
+    margin-left: 10px; }
+  /* line 575, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-sidebar, #lower-sidebar {
+    width: 40%;
+    float: right; }
+  /* line 579, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-sidebar #media-shell, #upper-sidebar #fm-shell, #upper-sidebar #most-read-shell, #upper-sidebar .blog-shell, #upper-sidebar .sidekick-shell, #upper-sidebar .article-related-shell
+#lower-sidebar #media-shell, #lower-sidebar #fm-shell, #lower-sidebar #most-read-shell, #lower-sidebar .blog-shell, #lower-sidebar .sidekick-shell, #lower-sidebar .article-related-shell {
+    width: 100%;
+    clear: both; }
+  /* line 584, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-sidebar #media-shell {
+    width: 305px; }
+  /* General article page paradigm */
+  /* line 588, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body {
+    width: 57%;
+    float: left; }
+  /* line 592, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-image-side {
+    width: 50%; }
+  /* line 595, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #sidebar {
+    width: 40%;
+    float: right; }
+  /* line 599, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #sidebar #media-shell, #sidebar #fm-shell, #sidebar #most-read-shell, #sidebar .article-related-shell, #sidebar .blog-shell, #sidebar .sidekick-shell {
+    width: 100%;
+    clear: both; }
+  /* line 603, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #sidebar #media-box {
+    width: 305px; }
+  /* Breaking */
+  /* line 607, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-sidebar {
+    display: inline;
+    width: 25%;
+    float: left;
+    margin-right: 15px; }
+  /* line 613, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main {
+    width: 73%;
+    float: right; }
+  /* Secondary */
+  /* line 619, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-first, #secondary-second {
+    width: 27%;
+    float: left;
+    margin-right: 10px;
+    box-sizing: border-box; }
+  /* line 625, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-third {
+    width: 42%;
+    float: right;
+    border-left: 1px solid #e3e3e3;
+    box-sizing: border-box; }
+  /* Photo box */
+  /* line 632, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #photo-box {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px; }
+  /* line 638, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #photo-box img {
+    width: 100%; }
+  /* Media box */
+  /* line 642, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media-shell {
+    width: 67%;
+    box-sizing: border-box;
+    float: right;
+    padding-right: 10px; }
+  /* line 648, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media-box {
+    width: 100%; }
+  /* Magazine box */
+  /* line 652, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-shell {
+    clear: both;
+    padding: 0 10px 15px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%; }
+  /* line 659, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box {
+    width: 100%; }
+  /* line 662, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box #fm-second img {
+    width: 25%;
+    float: left;
+    margin-right: 10px; }
+  /* Tertiary */
+  /* line 668, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary-first {
+    width: 60%;
+    float: left; }
+  /* line 672, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary-second {
+    width: 40%;
+    float: right; }
+  /* line 676, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary-second .blog-shell, #tertiary-second #most-read-shell {
+    width: 100%;
+    clear: both; } }
+
+@media (min-width: 600px) and (max-width: 750px) {
+  /* line 683, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon {
+    width: 60%; } }
+
+@media (max-width: 599px) {
+  /* line 689, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #toolbar-colophon {
+    width: 53%; } }
+
+/*
+Media query: Large desktop
+*/
+@media (min-width: 980px) {
+  /* General section page paradigm */
+  /* line 699, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper, #lower {
+    width: 960px; }
+  /* line 702, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body, #lower-body {
+    width: 66%;
+    float: left;
+    zoom: 1; }
+  /* line 707, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body:before, #upper-body:after, #lower-body:before, #lower-body:after {
+    content: "";
+    display: table; }
+  /* line 711, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-body:after, #lower-body:after {
+    clear: both; }
+  /* line 714, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-sidebar, #lower-sidebar {
+    width: 33%;
+    float: right; }
+  /* line 718, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-first {
+    width: 24%;
+    float: left; }
+  /* line 722, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-second {
+    width: 74%;
+    float: right; }
+  /* line 726, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #upper-second .upper-column, #lower-body .lower-column {
+    width: 47%;
+    float: left; }
+  /* General article page paradigm and media-specific styles */
+  /* line 731, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #main, #main #media {
+    width: 960px;
+    margin: 0 auto; }
+  /* line 735, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body, #media-first {
+    width: 66%;
+    float: left; }
+  /* line 739, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body ul#article-actions li, ul.pager li, #body ul.list-actions li,
+  #article ul.list-actions li {
+    width: 25%;
+    display: block;
+    float: left; }
+  /* line 745, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  ul.pager li {
+    width: 20%; }
+  /* line 748, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body ul.list-actions li,
+  #article ul.list-actions li {
+    width: 50%; }
+  /* line 752, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-image-side {
+    width: 310px;
+    float: right;
+    margin: 0 0 10px 10px; }
+  /* line 757, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #body #article-inset {
+    float: left;
+    width: 180px;
+    margin: 0 10px 10px 0; }
+  /* line 762, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #sidebar, #media-second {
+    width: 33%;
+    float: right; }
+  /* line 766, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media .media-entry {
+    clear: both; }
+  /* line 769, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media .media-entry .media-thumbnail {
+    width: 25%;
+    float: left;
+    margin: 0 10px 10px 0; }
+  /* line 774, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media .media-entry .media-thumbnail img {
+    width: 100%; }
+  /* Section box */
+  /* line 778, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box {
+    background: #E8E8E8 url('/static/images/divider.png') repeat-y 61.9% 0%; }
+  /* line 781, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box#section-opinion {
+    background-image: none; }
+  /* line 784, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box-first {
+    float: left;
+    width: 62.5%; }
+  /* line 788, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .section-box-second {
+    float: right;
+    width: 37.5%; }
+  /* Masthead */
+  /* line 793, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-first {
+    float: left;
+    width: 100%; }
+  /* line 797, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #masthead-nav-mobile {
+    display: none; }
+  /* Breaking */
+  /* line 802, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking {
+    width: 960px; }
+  /* line 805, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-headline {
+    font-size: 5em;
+    line-height: 1.1em;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 15px; }
+  /* line 812, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-sidebar {
+    width: 25%;
+    float: left;
+    margin-right: 15px; }
+  /* line 817, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container {
+    width: 100%;
+    height: 325px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-align: center; }
+  /* line 824, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-image-container img {
+    height: 100%; }
+  /* line 827, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main {
+    width: 73%;
+    float: right; }
+  /* line 831, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main-first {
+    width: 60%;
+    float: left; }
+  /* line 835, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #breaking-main-second {
+    width: 38%;
+    float: right; }
+  /* Semibreaking */
+  /* line 842, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #semibreaking {
+    width: 960px; }
+  /* line 846, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #semibreaking-first {
+    float: left;
+    margin-right: 15px;
+    width: 65%; }
+  /* line 852, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #semibreaking-second {
+    float: right;
+    width: 33%; }
+  /* line 857, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #semibreaking-headline {
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 15px; }
+  /* line 863, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .semibreaking-left {
+    float: left;
+    width: 35%; }
+  /* line 868, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .semibreaking-right {
+    float: right;
+    width: 60%; }
+  /* Primary */
+  /* line 874, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary {
+    width: 960px; }
+  /* line 877, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-first, #special-first {
+    width: 23.3%;
+    float: left;
+    margin-right: 15px; }
+  /* line 882, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-second, #special-second {
+    width: 39.8%;
+    float: left;
+    margin-right: 15px; }
+  /* line 887, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #special-first.lonely-first {
+    width: 63.1%; }
+  /* line 890, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #primary-third, .primary-third {
+    width: 33%;
+    float: right; }
+  /* line 894, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-above-tablet {
+    display: block; }
+  /* line 897, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .show-below-tablet {
+    display: none; }
+  /* line 900, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .huge-primary {
+    width: 65%; }
+  /* Row */
+  /* line 904, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row {
+    width: 960px; }
+  /* line 907, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #row .article {
+    width: 21%;
+    float: left;
+    text-align: center;
+    padding: 0 18px; }
+  /* Secondary */
+  /* line 914, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary {
+    width: 960px; }
+  /* line 917, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-first, #secondary-second {
+    width: 23.3%;
+    float: left;
+    margin-right: 15px; }
+  /* line 922, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #secondary-third {
+    width: 49.9%;
+    float: right;
+    border-left: 1px solid #e3e3e3; }
+  /* Photo box */
+  /* line 928, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #photo-box {
+    float: left;
+    width: 33%; }
+  /* Media box */
+  /* line 933, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #media-box {
+    float: right;
+    width: 305px; }
+  /* Magazine box */
+  /* line 938, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-box {
+    clear: both; }
+  /* line 941, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-first {
+    clear: both;
+    float: left;
+    width: 66.5%;
+    border-right: 1px solid #e3e3e3; }
+  /* line 947, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #fm-second {
+    float: right;
+    width: 33%;
+    text-align: center; }
+  /* Tertiary */
+  /* line 953, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary {
+    width: 960px; }
+  /* line 956, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary-first {
+    float: left;
+    width: 66%; }
+  /* line 960, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #tertiary-second {
+    float: right;
+    width: 33%; }
+  /* Footer */
+  /* line 965, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  footer {
+    width: 960px;
+    margin: 15px auto 15px; }
+  /* line 969, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #footer-first {
+    float: left;
+    width: 33%; }
+  /* line 973, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  #footer-second {
+    float: right;
+    width: 67%; }
+  /* line 977, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .large-screen-only {
+    display: block; }
+  /* line 980, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .small-screen-only {
+    display: none; } }
+
+/*
+Recommended Articles
+*/
+/* line 989, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+.article-recommended-container {
+  border-top: 1px solid #e3e3d3; }
+  /* line 992, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended-container h3 {
+    font: 0.85em/1.5em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+    padding: 12px 0;
+    text-transform: uppercase; }
+  /* line 998, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended-container ul {
+    margin: 0;
+    padding-left: 0; }
+  /* line 1003, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended-container ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 31%; }
+
+@media (max-width: 480px) {
+  /* line 1012, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended-container ul li {
+    width: 100%; } }
+
+/*
+ * Recommended articles
+ *
+ * This is here because it's included on both ROTC and the article template.
+ * TODO: Move this somewhere more sensical.
+ */
+/* line 1024, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+.article-recommended {
+  margin: 0 10px 20px 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top; }
+  /* line 1032, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended .title {
+    display: block;
+    font-family: crimson, serif;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 3px; }
+  /* line 1040, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended img {
+    width: 100%; }
+  /* line 1044, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended a {
+    text-decoration: none; }
+  /* line 1048, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended a:hover .title {
+    text-decoration: underline; }
+  /* line 1052, ../../srv/crimson/releases/current/crimsononline/static/css/responsive.scss */
+  .article-recommended .description {
+    color: #000;
+    font-size: 13px;
+    display: block;
+    line-height: 1.2; }

@@ -1,0 +1,140 @@
+/*
+Media-specific styles
+*/
+/* line 4, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#main.media {
+  margin: 25px 0;
+  width: 100%;
+  background-color: #111; }
+
+/* line 9, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#main.media a {
+  color: white; }
+
+/* line 12, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#main #media {
+  padding: 25px 0;
+  color: #ccc; }
+
+/* line 16, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul {
+  margin: 15px 0 0;
+  padding: 0;
+  zoom: 1;
+  float: right; }
+
+/* line 22, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul:before, #media #media-nav ul:after {
+  display: table;
+  content: ""; }
+
+/* line 26, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul:after {
+  clear: both; }
+
+/* line 29, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul li {
+  list-style: none;
+  display: inline;
+  float: left; }
+
+/* line 34, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul li a, #media #media-filter {
+  font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 15px;
+  color: #ccc; }
+
+/* line 41, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul li a:hover, #media #media-nav ul li a:active, #media #media-nav ul li a.active {
+  color: white; }
+
+/* line 44, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-nav ul li a.active {
+  background-color: #000; }
+
+/* line 47, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-media, #media #media-description {
+  padding: 15px;
+  background-color: #000;
+  clear: both; }
+
+/* line 52, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-media #media-inner {
+  margin: 0 auto;
+  width: 560px; }
+
+/* line 56, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-description {
+  margin-bottom: 15px; }
+
+/* line 59, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-description .media-credit {
+  text-align: right;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #333; }
+
+/* line 64, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-description h2 {
+  padding-top: 15px; }
+
+/* line 67, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-tags, #media ul.pager {
+  border: 1px solid #333;
+  font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  text-transform: uppercase;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 15px 0; }
+
+/* line 75, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-tags h3 {
+  color: #ba0600;
+  font: bold 1em 'Colaborate', 'Lucida Sans Unicode', sans-serif;
+  width: 50px;
+  float: left;
+  padding: 5px; }
+
+/* line 82, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-tags p {
+  margin: 0;
+  padding: 5px; }
+
+/* line 86, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-filter {
+  margin: 0;
+  padding: 0; }
+
+/* line 90, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-filter li {
+  list-style: none; }
+
+/* line 93, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-filter li a {
+  padding: 0 10px; }
+
+/* line 96, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-list {
+  padding: 15px;
+  border: 1px solid #333;
+  zoom: 1; }
+
+/* line 101, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-list:before, #media #media-list:after {
+  display: table;
+  content: ""; }
+
+/* line 105, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media #media-list:after {
+  clear: both; }
+
+/* line 108, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media .media-entry {
+  margin: 15px 0; }
+
+/* line 111, ../../srv/crimson/releases/current/crimsononline/static/css/media.scss */
+#media .media-entry .media-section, #media #media-description .media-credit {
+  font: 0.85em 'Colaborate Light', 'Lucida Sans Unicode', sans-serif;
+  text-transform: uppercase;
+  color: #ccc; }
